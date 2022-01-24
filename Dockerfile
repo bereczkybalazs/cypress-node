@@ -1,4 +1,4 @@
-FROM node:14.17.2-buster
+FROM node:16-buster
 
 RUN apt-get update && \
   apt-get install --no-install-recommends -y \
